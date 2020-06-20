@@ -15,7 +15,7 @@ $open = fopen($check, 'w');
 fwrite($open, $text);
 fclose($open);
 if(file_exists($check)){
-    echo $check."</br>";
+    echo $check."Vuln!! patch it Now!";
 }else 
   echo "not exits";
 echo "done .\n " ;
@@ -25,7 +25,7 @@ $open2 = fopen($check2, 'w');
 fwrite($open2, $text2);
 fclose($open2);
 if(file_exists($check2)){
-    echo $check2."</br>";
+    echo $check2."Vuln!! patch it Now!";
 }else 
   echo "not exits";
 echo "done .\n " ;
