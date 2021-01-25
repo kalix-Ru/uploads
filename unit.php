@@ -1,4 +1,5 @@
 <?php
+echo '<title>DONE</title>';
 function http_get($url){
 	$im = curl_init($url);
 	curl_setopt($im, CURLOPT_RETURNTRANSFER, 1);
