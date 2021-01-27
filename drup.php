@@ -1,7 +1,7 @@
 <!Doctype HTML>
 <html>
 <head>
-    <title>Drupal-ADD-User</title>
+    <title>success</title>
     <style type="text/css">
     .mymargin{
         margin-top:100px;
