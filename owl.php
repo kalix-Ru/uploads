@@ -1,4 +1,4 @@
-<?php
+<title>OWL</title><?php
 
 /**
  * Owl PHP Mailer by [owlmailer.io]
