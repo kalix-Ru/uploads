@@ -1,4 +1,4 @@
-<?php
+<title>Leaf</title><?php
 /**
  * Leaf PHP Mailer by [leafmailer.pw]
  * @version : 2.8
